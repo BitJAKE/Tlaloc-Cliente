@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-item {
+    @apply mx-2;
+}
+
+.acerca-de {
+    background-color: #91E35B;
+    color: #F8FDF5;
+    padding: 2px;
+    transform: translateY(-2px);
+}

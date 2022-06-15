@@ -2,13 +2,71 @@
 @tailwind components;
 @tailwind utilities;
 
-.nav-item {
-    @apply mx-2;
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/Lato-Regular.ttf');
 }
 
-.acerca-de {
+@font-face {
+    font-family: 'Zilla-Slab';
+    src: url('./fonts/ZillaSlab-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Capriola';
+    src: url('./fonts/Capriola-Regular.ttf');
+}
+
+.nav-item {
+    padding: 2px;
+    font-size: 9px;
+    font-family: Lato;
+    transition: background-color 0.5s;
+}
+
+.nav-item:hover {
     background-color: #91E35B;
     color: #F8FDF5;
-    padding: 2px;
-    transform: translateY(-2px);
+    @apply rounded-sm;
+}
+
+.btn {
+    padding: 4px;
+    background-color: #E36F44;
+    color: #F8FDF5;
+    @apply rounded-sm text-sm my-2;
+    position: absolute;
+    font-family: Capriola;
+    font-size: 60%;
+    transition: transform 1s;
+}
+
+.btn-animacion {
+    position: relative;
+}
+
+.btn-fondo {
+    padding: 4px;
+    background-color: #91E35B;
+    color: #91E35B;
+    @apply rounded-sm text-sm my-2;
+    position: absolute;
+    font-family: Capriola;
+    font-size: 60%;
+}
+
+.btn-animacion:hover .btn {
+    transform: translate(5px, 5px);
+}
+
+.texto-land-Page {
+    font-size: 60%;
+}
+
+h1 {
+    font-family: Zilla-Slab;
+}
+
+p {
+    font-family: Lato;
 }

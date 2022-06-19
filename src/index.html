@@ -8,14 +8,16 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='./output.css'>
     <link rel="shortcut icon" href="./img/Favicon.svg">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 
 <body>
     <div class="mx-6">
         <nav class="my-2">
-            <div class="flex items-end">
-                <img src="./img/Logo.svg" class="w-10">
-                <div class="w-full flex justify-end">
+            <div class="flex items-end justify-center">
+                <img src="./img/Logo.svg" class="w-24">
+                <div class="hidden md:inline text-lg md:w-full md:flex md:justify-end" id="collapse-items">
                     <ul class="flex flex-row">
                         <a href="#">
                             <li class="nav-item mx-2">Blog</li>
@@ -32,25 +34,34 @@
                     </ul>
                 </div>
             </div>
-            <hr class="mt-1">
+            <hr class="mt-1 separador">
         </nav>
-        <div class="flex">
+        <div class="md:flex mb-2">
             <div>
-                <h1 class="text-xl leading-tight mt-8 mb-4">
+                <h1 class="text-3xl text-center md:text-left md:text-5xl leading-tight mt-8 mb-4">
                     ¡Se parte del cambio y empatiza por el medio ambiente!
                 </h1>
-                <p class="texto-land-Page">
+                <p class="text-base text-center md:text-xl md:text-left">
                     Todos en este planeta ( animales, plantas y hasta vos! ) queremos un mañana en el que podamos dormir
                     tranquilos,
                     ¿Cierto?
                 </p>
-                <div class="btn-animacion mt-2">
+                <div class="btn-animacion mt-6 md:mt-2 flex justify-center md:justify-start">
                     <button class="btn-fondo">Más Información</button>
                     <button class="btn">Más Información</button>
                 </div>
             </div>
-            <img src="./img/Quetzal.jpg" class="w-2/5 mt-2">
+            <div class="md:w-2/3">
+                <img src="./img/Quetzal.jpg" class="hidden md:inline md:mt-2 mt-20">
+                <img src="./img/Quetzal Responsive.png" class="md:hidden mt-20">
+            </div>
         </div>
+        <span class="material-symbols-outlined">
+            menu
+        </span>
+        <!-- <span class="material-symbols-outlined bg-slate-500">
+            menu
+        </span> -->
     </div>
 </body>
 

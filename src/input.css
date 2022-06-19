@@ -19,7 +19,6 @@
 
 .nav-item {
     padding: 2px;
-    font-size: 9px;
     font-family: Lato;
     transition: background-color 0.5s;
 }
@@ -34,10 +33,10 @@
     padding: 4px;
     background-color: #E36F44;
     color: #F8FDF5;
-    @apply rounded-sm text-sm my-2;
+    @apply rounded-sm my-2;
     position: absolute;
     font-family: Capriola;
-    font-size: 60%;
+    font-size: 20px;
     transition: transform 1s;
 }
 
@@ -49,18 +48,14 @@
     padding: 4px;
     background-color: #91E35B;
     color: #91E35B;
-    @apply rounded-sm text-sm my-2;
+    @apply rounded-sm my-2;
     position: absolute;
     font-family: Capriola;
-    font-size: 60%;
+    font-size: 20px;
 }
 
 .btn-animacion:hover .btn {
     transform: translate(5px, 5px);
-}
-
-.texto-land-Page {
-    font-size: 60%;
 }
 
 h1 {
@@ -69,4 +64,8 @@ h1 {
 
 p {
     font-family: Lato;
+}
+
+.separador {
+    border-color: #8D99AE;
 }

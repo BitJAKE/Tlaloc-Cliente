@@ -76,12 +76,9 @@ p {
 
 .menu-responsive {
     background-color: #E36F44;
-    @apply p-1 mb-4;
+    @apply p-1 mb-2;
     border-radius: 50%;
-}
-
-.menu-responsive:hover {
-    cursor: pointer;
+    color: #FFF;
 }
 
 .link:hover {

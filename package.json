@@ -1,0 +1,23 @@
+{
+  "name": "tlaloc-cliente",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --minify --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BitJAKE/Tlaloc-Cliente.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BitJAKE/Tlaloc-Cliente/issues"
+  },
+  "homepage": "https://github.com/BitJAKE/Tlaloc-Cliente#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.3"
+  }
+}

@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Zilla-Slab';
+    src: url('./fonts/ZillaSlab-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Capriola';
+    src: url('./fonts/Capriola-Regular.ttf');
+}
+
+.nav-item {
+    padding: 3px;
+    font-family: Lato;
+    transition: background-color 0.5s;
+}
+
+.nav-item:hover {
+    background-color: #91E35B;
+    color: #F8FDF5;
+    @apply rounded-md;
+}
+
+.btn {
+    padding: 4px;
+    background-color: #E36F44;
+    color: #F8FDF5;
+    @apply rounded-md my-2;
+    position: absolute;
+    font-family: Capriola;
+    font-size: 20px;
+    transition: transform 1s;
+}
+
+.btn-animacion {
+    position: relative;
+}
+
+.btn-fondo {
+    padding: 4px;
+    background-color: #91E35B;
+    color: #91E35B;
+    @apply rounded-md my-2;
+    position: absolute;
+    font-family: Capriola;
+    font-size: 20px;
+}
+
+.btn-animacion:hover .btn {
+    transform: translate(5px, 5px);
+}
+
+h1 {
+    font-family: Zilla-Slab;
+}
+
+h2 {
+    font-family: Zilla-Slab;
+}
+
+p {
+    font-family: Lato;
+}
+
+.separador {
+    border-color: #8D99AE;
+}
+
+.menu-responsive {
+    background-color: #E36F44;
+    @apply p-1 mb-2;
+    border-radius: 50%;
+    color: #FFF;
+}
+
+.link:hover {
+    color: #E36F44;
+    cursor: pointer;
+}
+
+.img-landPage {
+    transform: scale(0.75);
+}

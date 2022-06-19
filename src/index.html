@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tláloc</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./output.css'>
+    <link rel="shortcut icon" href="./img/Favicon.svg">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+    <div class="mx-6">
+        <nav class="my-2">
+            <div class="flex items-end justify-center">
+                <img src="./img/Logo.svg" class="w-24">
+                <div class="hidden md:inline text-lg md:w-full md:flex md:justify-end">
+                    <ul class="flex flex-row">
+                        <a href="#">
+                            <li class="nav-item mx-2">Blog</li>
+                        </a>
+                        <a href="#">
+                            <li class="nav-item mx-2">Eventos</li>
+                        </a>
+                        <a href="#">
+                            <li class="nav-item mx-2">Productos Eco</li>
+                        </a>
+                        <a href="#">
+                            <li class="nav-item ml-2">Acerca de</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <hr class="mt-1 separador mb-8">
+        </nav>
+        <div id="content" class="inline">
+            <section class="md:flex mb-2 items-center">
+                <div class="md:w-7/12">
+                    <h1 class="text-3xl text-center md:text-left md:text-5xl leading-tight mb-4">
+                        ¡Se parte del cambio y empatiza por el medio ambiente!
+                    </h1>
+                    <p class="text-base text-center md:text-xl md:text-left">
+                        Todos en este planeta ( animales, plantas y hasta vos! ) queremos un mañana en el que podamos
+                        dormir
+                        tranquilos,
+                        ¿Cierto?
+                    </p>
+                    <div class="btn-animacion mt-6 md:mt-2 flex justify-center md:justify-start">
+                        <button class="btn-fondo">Más Información</button>
+                        <button class="btn">Más Información</button>
+                    </div>
+                </div>
+                <img src="./img/Quetzal.jpg" class="md:w-5/12 md:inline hidden md:mt-2 xl:mt-8 mt-20">
+                <img src="./img/Quetzal Responsive.png" class="md:hidden mt-20">
+            </section>
+            <section class="mb-2 items-center flex flex-col-reverse md:flex-row">
+                <img src="./img/Blog-Ambiental.png" class="md:w-7/12 md:mt-2 img-landPage">
+                <div class="md:5/12">
+                    <h2 class="text-2xl text-center md:text-left md:text-4xl mt-8 mb-4">Blog Ambiental</h2>
+                    <p class="text-base text-center md:text-xl md:text-left">Maecenas eu bibendum nulla. Vestibulum
+                        dictum
+                        elit sit amet ligula eleifend, ut sollicitudin massa
+                        posuere. Sed condimen
+                        tum diam quis rhoncus fringilla.
+                    </p>
+                    <div class="link flex mt-4 md:justify-start justify-center">
+                        <a href="#">Empieza a leernos</a>
+                        <span class="material-symbols-outlined">
+                            arrow_forward_ios
+                        </span>
+                    </div>
+                </div>
+            </section>
+            <section class="md:flex mb-2 items-center">
+                <div class="md:w-7/12">
+                    <h2 class="text-2xl text-center md:text-left md:text-4xl mb-4">Eventos ambientales</h2>
+                    <p class="text-base text-center md:text-xl md:text-left">Maecenas eu bibendum nulla. Vestibulum
+                        dictum
+                        elit sit amet ligula eleifend, ut sollicitudin massa
+                        posuere. Sed condimen
+                        tum diam quis rhoncus fringilla.
+                    </p>
+                    <div class="link flex mt-4 md:justify-start justify-center">
+                        <a href="#">Empieza a descubrirlos</a>
+                        <span class="material-symbols-outlined">
+                            arrow_forward_ios
+                        </span>
+                    </div>
+                </div>
+                <img src="./img/Eventos-Ambientales.png" class="md:w-5/12 md:mt-2 mt-4">
+            </section>
+            <section class="mb-2 items-center flex flex-col-reverse md:flex-row">
+                <img src="./img/Productos-Ecologicos.png" class="md:w-7/12 img-landPage -mt-4">
+                <div class="md:5/12">
+                    <h2 class="text-2xl text-center md:text-left md:text-4xl mt-8 mb-4">Venta de productos Ecológicos
+                    </h2>
+                    <p class="text-base text-center md:text-xl md:text-left">Maecenas eu bibendum nulla. Vestibulum
+                        dictum
+                        elit sit amet ligula eleifend, ut sollicitudin massa
+                        posuere. Sed condimen
+                        tum diam quis rhoncus fringilla.
+                    </p>
+                    <div class="link flex mt-4 md:justify-start justify-center">
+                        <a href="#">Empieza a comprarlos</a>
+                        <span class="material-symbols-outlined">
+                            arrow_forward_ios
+                        </span>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="flex justify-end md:hidden">
+            <span class="material-symbols-outlined menu-responsive" id="menu">
+                menu
+            </span>
+        </div>
+        <div class="md:hidden mb-4" id="menu-opciones">
+
+        </div>
+    </div>
+    <script src="./js/funcionalidades.js"></script>
+</body>
+
+</html>

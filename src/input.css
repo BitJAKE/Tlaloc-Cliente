@@ -26,7 +26,13 @@
 .nav-item:hover {
     background-color: #91E35B;
     color: #F8FDF5;
-    @apply rounded-md;
+    @apply rounded-md px-2;
+}
+
+.nav-item-active {
+    background-color: #91E35B;
+    color: #F8FDF5;
+    @apply rounded-md px-2;
 }
 
 .btn {

@@ -4,7 +4,7 @@ const crearOpcionesNavegacion = () => {
     let content = document.getElementById("content");
     menuOpciones.innerHTML = ""
     nombresOpciones = ["Blog", "Eventos", "Productos Eco", "Acerca de"]
-    linkOpciones = ["#", "#", "#", "#"]
+    linkOpciones = ["./pages/Blog.html", "#", "#", "#"]
     if (elemento.textContent === "close") {
         elemento.textContent = "menu"
         content.className = ""

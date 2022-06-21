@@ -8,7 +8,7 @@
 }
 
 @font-face {
-    font-family: 'Zilla-Slab';
+    font-family: 'Zilla-Slab-Bold';
     src: url('./fonts/ZillaSlab-Bold.ttf');
 }
 
@@ -65,20 +65,28 @@
 }
 
 h1 {
-    font-family: Zilla-Slab;
+    font-family: Zilla-Slab-Bold;
 }
 
 h2 {
-    font-family: Zilla-Slab;
+    font-family: Zilla-Slab-Bold;
 }
 
 h3 {
-    font-family: Zilla-Slab;
+    font-family: Zilla-Slab-Bold;
     color: #5B9D2F;
 }
 
 p {
     font-family: Lato;
+}
+
+.texto-alterno {
+    font-family: Zilla-Slab-Bold;
+}
+
+.texto-verde {
+    color: #82CC52;
 }
 
 .separador {
@@ -119,4 +127,8 @@ p {
 
 .entrada-blog:hover {
     color: #E36F44;
+}
+
+.underline {
+    text-decoration-color: #E36F44;
 }

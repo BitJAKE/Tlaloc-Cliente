@@ -4,7 +4,7 @@ Tlaloc, nace de un grupo de estudiantes decididos a generar una página de impac
 Está es una creación destinada a mostrar, motivar y apoyar al desarrollo del medio ambiente.
 Tenemos 3 áreas importantes.
 - El primero es el área de " eventos " , este área es creado para que todos los visitantes vean información variada de actividades favorables a la naturaleza, en este área también tenemos la oportunidad de que los vendedores ambulantes puedan colocar su información, cómo punto de venta y diversos detalles. Todo referente a la naturaleza. 
-- También existe el área de blog, que en encontrará diversa información de procesos para plantar, tipos de plantas o todo lo relacionado a naturaleza que nuestros usuarios deseen compartir. 
+- También existe el área de blog, en esta va a encontrar diversa información de proceso para plantar
 - Y no menos importante el área que habla de nosotros. Pues tenemos una breve descripción de quienes somos y qué queremos lograr.
 
 ## 🛠 Instalación

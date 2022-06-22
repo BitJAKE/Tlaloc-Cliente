@@ -8,6 +8,12 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='../output.css'>
     <link rel="shortcut icon" href="../img/Favicon.svg">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 
 <body>
@@ -34,14 +40,21 @@
             </div>
             <hr class="mt-1 separador mb-8">
         </nav>
-        <section id="Blog-principal">
-        </section>
-        <section id="Blogs" class="grid grid-cols-1 md:grid-cols-3 gap-8 xl:gap-12 my-8">
-        </section>
+        <div id="content" class="inline">
+            <section id="Blog-principal"></section>
+            <section id="Blogs" class="grid grid-cols-1 md:grid-cols-3 gap-8 xl:gap-12 my-8"></section>
+        </div>
+        <div class="flex justify-end md:hidden">
+            <span class="material-symbols-outlined menu-responsive" id="menu">
+                menu
+            </span>
+        </div>
+        <div class="md:hidden mb-4" id="menu-opciones"></div>
     </div>
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="../js/funcionalidadesBlog.js"></script>
+    <script src="../js/funcionalidades.js"></script>
 </body>
 
 </html>

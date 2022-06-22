@@ -109,16 +109,9 @@ p {
     transform: scale(0.75);
 }
 
-#rectangulo-degradado-fondo {
-    position: relative;
-    height: 300px;
-    background: radial-gradient(41.93% 138.25% at 13.44% 28.94%, #91E35B 0%, #FFFFFF 98.05%);
-    border-radius: 10px;
-}
-
-#img-principal-blog {
-    max-width: 98%;
-    max-height: 98%;
+.img-blog {
+    height: 370px;
+    background-size: cover;
 }
 
 .separador-blog {

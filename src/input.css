@@ -99,6 +99,14 @@ p {
     color: #82CC52;
 }
 
+.texto-verde-alterno {
+    color: #4C9F15;
+}
+
+.texto-gris-blog {
+    color: #747474;
+}
+
 .separador {
     border-color: #8D99AE;
 }
@@ -166,4 +174,15 @@ footer div a:hover {
 footer div li a {
     font-size: 14px;
     color: #FFF;
+}
+
+.side-bar-blog {
+    background-color: #91E35B;
+    color: #91E35B;
+    width: 11px;
+    height: 30px;
+}
+
+.side-bar-link-inactive {
+    color: #9D9D9D;
 }

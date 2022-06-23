@@ -28,7 +28,7 @@ const cargarEventos = async () => {
                         <img src="${imagenBlog}" class="rounded-md flex items-center justify-end xl:col-span-5">
                         <div class="xl:col-span-7">
                             <p class="ml-2 hidden md:inline"><em>Por: <strong>${contenidoBlogs[i].usuario}</strong>, ${fecha}</em></p>
-                            <a href="#">
+                            <a href="../pages/Blog-individual.html">
                                 <h2 class="text-2xl text-center md:text-left md:text-4xl my-4 entrada-blog">${contenidoBlogs[i].nombre}</h2>
                             </a>
                             <hr class="mt-1 separador-blog mb-8">
@@ -43,7 +43,7 @@ const cargarEventos = async () => {
                         <p class="ml-2 md:hidden text-end"><em>Por: <strong>${contenidoBlogs[i].usuario}</strong>, ${fecha}</em>
                         </p>
                         <img src="${imagenBlog}" class="rounded-md mb-4 img-blog w-full">
-                        <a href="#">
+                        <a href="../pages/Blog-individual.html">
                             <h3 class="text-xl text-center md:text-left md:text-2xl md:mt-8 entrada-blog hidden md:inline">
                                 ${contenidoBlogs[i].nombre}
                             </h3>
@@ -52,7 +52,7 @@ const cargarEventos = async () => {
                             ${contenidoBlogs[i].descripcion}
                         </p>
                         <p class="hidden md:inline"><em>Por: <strong>${contenidoBlogs[i].usuario}</strong>, ${fecha}</em></p>
-                        <a href="#">
+                        <a href="../pages/Blog-individual.html">
                             <h3 class="text-xl text-center md:text-left md:text-2xl mt-8 mb-4 md:hidden">
                                 ${contenidoBlogs[i].nombre}
                             </h3>

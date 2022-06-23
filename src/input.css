@@ -77,6 +77,16 @@ h3 {
     color: #5B9D2F;
 }
 
+h4 {
+    font-family: Zilla-Slab-Bold;
+}
+
+h5 {
+    font-family: Lato;
+    color: #FFF;
+    font-size: 14px;
+}
+
 p {
     font-family: Lato;
 }
@@ -124,4 +134,36 @@ p {
 
 .underline {
     text-decoration-color: #E36F44;
+}
+
+footer {
+    background-color: #423C52;
+}
+
+footer * {
+    color: #FFF;
+}
+
+footer hr {
+    height: 2px;
+    background-color: #D9D9D9;
+}
+
+footer p {
+    font-size: 12px;
+    color: #CFCECE;
+}
+
+footer div a {
+    font-size: 12px;
+    color: #CFCECE;
+}
+
+footer div a:hover {
+    text-decoration: underline;
+}
+
+footer div li a {
+    font-size: 14px;
+    color: #FFF;
 }

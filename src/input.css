@@ -84,6 +84,7 @@ h4 {
 h5 {
     font-family: Lato;
     color: #FFF;
+    font-size: 14px;
 }
 
 p {
@@ -144,7 +145,25 @@ footer * {
 }
 
 footer hr {
-    @apply mt-12;
     height: 2px;
     background-color: #D9D9D9;
+}
+
+footer p {
+    font-size: 12px;
+    color: #CFCECE;
+}
+
+footer div a {
+    font-size: 12px;
+    color: #CFCECE;
+}
+
+footer div a:hover {
+    text-decoration: underline;
+}
+
+footer div li a {
+    font-size: 14px;
+    color: #FFF;
 }

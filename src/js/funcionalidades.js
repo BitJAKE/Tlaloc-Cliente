@@ -23,6 +23,7 @@ const crearOpcionesNavegacion = () => {
             menuOpciones.appendChild(link)
             menuOpciones.appendChild(separador)
         }
+        menuOpciones.className = "mb-36"
     }
 }
 document.getElementById("menu").addEventListener("click", crearOpcionesNavegacion)

@@ -78,7 +78,7 @@ const obtenerContenido = async (contenido) => {
         if (contenidoAPI.imagenes.length != 0) {
             let imagen = document.createElement("img")
             let imagenAPI = await obtenerImagen(contenidoAPI.imagenes[0])
-            imagen.className = "imagen-blog mb-2"
+            imagen.className = "imagen-blog mb-2 w-full md:w-4/5"
             imagen.src = imagenAPI
             divContenido.appendChild(imagen)
         }

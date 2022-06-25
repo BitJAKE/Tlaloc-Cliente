@@ -186,3 +186,17 @@ footer div li a {
 .side-bar-link-inactive {
     color: #9D9D9D;
 }
+
+.side-bar-link-inactive:hover {
+    color: #E36F44;
+}
+
+#imagenPrincipal {
+    height: 30vw;
+    object-fit: cover;
+}
+
+.imagen-blog {
+    height: 50vw;
+    object-fit: cover;
+}

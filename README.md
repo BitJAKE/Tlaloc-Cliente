@@ -13,7 +13,7 @@ Se encontrarán los diferentes diseños que tiene la aplicacion, configuraciones
 
 > "Help Tip" - Utilizar tema dark 
 
-![BitJake](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656224813/TlalocLogo_kvw9dg.png)
+![BitJake](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656278672/TlalocMThem_jrfeei.png)
 
 ## Descripcion
 Tlaloc, nace de un grupo de estudiantes decididos a generar una página de impacto en importancia para el medio ambiente, pero no sólo una página destinada al medio ambiente , pues no es una simple página informativa. 

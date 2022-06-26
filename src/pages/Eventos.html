@@ -34,7 +34,10 @@
             </div>
             <hr class="mt-1 separador mb-8">
         </nav>
-        <img src="../img/Productos Portada.svg" class="md:mb-8 mb-32">
+        <div id="content" class="inline">
+            <section id="Evento-principal"></section>
+            <section id="eventos" class="grid grid-cols-1 md:grid-cols-3 gap-8 xl:gap-12 my-8"></section>
+        </div>
     </div>
     <footer class="">
         <div class="pt-4 md:pt-12 px-4 xl:px-24">
@@ -86,7 +89,7 @@
                     <h4 class="text-lg pb-4">Secciones</h4>
                     <ul class="h-1/2 flex flex-col justify-around">
                         <li><a href="./Blog.html">Blog Ambiental</a></li>
-                        <li><a href="./Eventos.html">Eventos Ambientales</a></li>
+                        <li><a href="#">Eventos Ambientales</a></li>
                         <li><a href="./Productos.html">Productos ecológicos</a></li>
                         <li><a href="./AboutUs.html">Acerca de</a></li>
                     </ul>
@@ -96,6 +99,8 @@
             <p class="text-center p-4 md:p-8">© 2022 - 2022 bitJAKE</p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../js/funcionalidadesEventos.js"></script>
 </body>
 
 </html>

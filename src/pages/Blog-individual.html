@@ -8,13 +8,24 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='../output.css'>
     <link rel="shortcut icon" href="../img/Favicon.svg">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 
 <body>
     <div class="mx-6 xl:mx-24">
         <nav class="my-2">
-            <div class="flex items-end justify-center">
+            <div class="flex items-end justify-between">
                 <a href="../index.html"><img src="../img/Logo.svg" class="w-24"></a>
+                <div class="flex justify-end md:hidden">
+                    <span class="material-symbols-outlined menu-responsive" id="menu">
+                        menu
+                    </span>
+                </div>
                 <div class="hidden text-lg md:w-full md:flex md:justify-end">
                     <ul class="flex flex-row">
                         <a href="./Blog.html">
@@ -35,20 +46,21 @@
             <hr class="mt-1 separador mb-8">
         </nav>
     </div>
-    <section id="cabecera">
-    </section>
-    <img class="w-4/5" id="imagenPrincipal">
-    <section class="md:grid md:grid-cols-4 mb-16">
-        <div class="mx-6 md:mx-32 md:col-span-3" id="contenido">
-        </div>
-        <div class="md:col-span-1 mt-8 hidden md:inline">
-            <ul id="indice">
-                <li class="mb-4"><span class="side-bar-blog">a</span><a class="ml-2" href="#prueba">
-                        <strong>Indice</strong></a></li>
-            </ul>
-        </div>
-    </section>
+    <div class="md:hidden mb-4" id="menu-opciones"></div>
+    <div id="content">
+        <section id="cabecera">
+        </section>
+        <img class="w-4/5" id="imagenPrincipal">
+        <section class="md:grid md:grid-cols-4 mb-16">
+            <div class="mx-6 md:mx-32 md:col-span-3" id="contenido"></div>
+            <div class="md:col-span-1 mt-8 hidden md:inline">
+                <ul id="indice">
+                    <li class="mb-4"><span class="side-bar-blog">a</span><a class="ml-2" href="#prueba">
+                            <strong>Indice</strong></a></li>
+                </ul>
+            </div>
     </div>
+    </section>
     <footer class="">
         <div class="pt-4 md:pt-12 px-4 xl:px-24">
             <div class="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-8 items-start">
@@ -109,6 +121,7 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="../js/funcionalidadesBlogIndividual.js"></script>
+    <script src="../js/funcionalidadesPaginas.js"></script>
 </body>
 
 </html>

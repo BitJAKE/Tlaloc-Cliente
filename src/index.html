@@ -19,8 +19,13 @@
 <body>
     <div class="mx-6">
         <nav class="my-2">
-            <div class="flex items-end justify-center">
+            <div class="flex items-end justify-between">
                 <img src="./img/Logo.svg" class="w-24">
+                <div class="flex justify-end md:hidden">
+                    <span class="material-symbols-outlined menu-responsive" id="menu">
+                        menu
+                    </span>
+                </div>
                 <div class="hidden text-lg md:w-full md:flex md:justify-end">
                     <ul class="flex flex-row">
                         <a href="./pages/Blog.html">
@@ -40,6 +45,7 @@
             </div>
             <hr class="mt-1 separador mb-8">
         </nav>
+        <div class="md:hidden mb-4" id="menu-opciones"></div>
         <div id="content" class="inline">
             <section class="md:flex mb-2 items-center">
                 <div class="md:w-7/12">
@@ -120,12 +126,6 @@
                 </div>
             </section>
         </div>
-        <div class="flex justify-end md:hidden">
-            <span class="material-symbols-outlined menu-responsive" id="menu">
-                menu
-            </span>
-        </div>
-        <div class="md:hidden mb-4" id="menu-opciones"></div>
     </div>
     <footer class="">
         <div class="pt-4 md:pt-12 px-4 xl:px-24">

@@ -19,8 +19,13 @@
 <body>
     <div class="mx-6 xl:mx-24">
         <nav class="my-2">
-            <div class="flex items-end justify-center">
+            <div class="flex items-end justify-between">
                 <a href="../index.html"><img src="../img/Logo.svg" class="w-24"></a>
+                <div class="flex justify-end md:hidden">
+                    <span class="material-symbols-outlined menu-responsive" id="menu">
+                        menu
+                    </span>
+                </div>
                 <div class="hidden text-lg md:w-full md:flex md:justify-end">
                     <ul class="flex flex-row">
                         <a href="#">
@@ -43,11 +48,6 @@
         <div id="content" class="inline">
             <section id="Blog-principal"></section>
             <section id="Blogs" class="grid grid-cols-1 md:grid-cols-3 gap-8 xl:gap-12 my-8"></section>
-        </div>
-        <div class="flex justify-end md:hidden">
-            <span class="material-symbols-outlined menu-responsive" id="menu">
-                menu
-            </span>
         </div>
         <div class="md:hidden mb-4" id="menu-opciones"></div>
     </div>
@@ -111,10 +111,9 @@
             <p class="text-center p-4 md:p-8">© 2022 - 2022 bitJAKE</p>
         </div>
     </footer>
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="../js/funcionalidadesBlog.js"></script>
-    <script src="../js/funcionalidades.js"></script>
+    <script src="../js/funcionalidadesPaginas.js"></script>
 </body>
 
 </html>

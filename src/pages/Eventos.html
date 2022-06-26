@@ -8,13 +8,24 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='../output.css'>
     <link rel="shortcut icon" href="../img/Favicon.svg">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 
 <body>
     <div class="mx-6 xl:mx-24">
         <nav class="my-2">
-            <div class="flex items-end justify-center">
+            <div class="flex items-end justify-between">
                 <a href="../index.html"><img src="../img/Logo.svg" class="w-24"></a>
+                <div class="flex justify-end md:hidden">
+                    <span class="material-symbols-outlined menu-responsive" id="menu">
+                        menu
+                    </span>
+                </div>
                 <div class="hidden text-lg md:w-full md:flex md:justify-end">
                     <ul class="flex flex-row">
                         <a href="./Blog.html">
@@ -38,6 +49,7 @@
             <section id="Evento-principal"></section>
             <section id="eventos" class="grid grid-cols-1 md:grid-cols-3 gap-8 xl:gap-12 my-8"></section>
         </div>
+        <div class="md:hidden mb-4" id="menu-opciones"></div>
     </div>
     <footer class="">
         <div class="pt-4 md:pt-12 px-4 xl:px-24">
@@ -101,6 +113,7 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="../js/funcionalidadesEventos.js"></script>
+    <script src="../js/funcionalidadesPaginas.js"></script>
 </body>
 
 </html>

@@ -4,9 +4,10 @@ Proyecto destinado para dar soporte al frontend del producto Tlaloc de BitJake.
 Se encontrarán los diferentes diseños que tiene la aplicacion, configuraciones y tipografias.
 
 
-```bash
+> "Help Tip" - Utilizar tema dark 
+
 ![BitJake](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656224813/TlalocLogo_kvw9dg.png)
-```
+
 ## Descripcion
 Tlaloc, nace de un grupo de estudiantes decididos a generar una página de impacto en importancia para el medio ambiente, pero no sólo una página destinada al medio ambiente , pues no es una simple página informativa. 
 Está es una creación destinada a mostrar, motivar y apoyar al desarrollo del medio ambiente.
@@ -51,7 +52,7 @@ Para desplegar se utilizo `NETLIFY`, facilita que los sitios web esten para los 
 También la plataforma permite lanzar proyectos web sin necesidad de preocuparnos por configuraciones y mantenimiento.
 
 ## Autores ✒️
-* **Kelvin Cano** - *UI Developer* - [Kelvin-Cano](https://github.com/Allecan)
-* **Fernando Juarez** - *Front-end Developer* - [Fernando-Juarez](https://github.com/Rafterminador)
-* **Zoila  Sánchez** - *Desarrolladora Backend* - [Zoila-Sánchez](https://github.com/ZoilaSanchez)
-* **Andrea Morales** - *Desarrolladora Backend* - [Andrea-Morales](https://github.com/AGMH16)
+* [Kelvin-Cano](https://github.com/Allecan) - *UI Developer*
+* [Fernando-Juarez](https://github.com/Rafterminador) - *Front-end Developer* 
+* [Zoila-Sánchez](https://github.com/ZoilaSanchez) - *Desarrolladora Backend*
+* [Andrea-Morales](https://github.com/AGMH16) - *Desarrolladora Backend* 

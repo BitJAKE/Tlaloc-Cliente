@@ -129,7 +129,7 @@ p {
 
 .img-blog {
     height: 370px;
-    background-size: cover;
+    object-fit: cover;
 }
 
 .separador-blog {
@@ -199,4 +199,8 @@ footer div li a {
 .imagen-blog {
     height: 50vw;
     object-fit: cover;
+}
+
+.evento-estado {
+    color: #949494;
 }

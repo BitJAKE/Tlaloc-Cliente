@@ -3,7 +3,7 @@
 Proyecto destinado para dar soporte al frontend del producto Tlaloc de BitJake.
 Se encontrarán los diferentes diseños que tiene la aplicacion, configuraciones y tipografias.
 
-![BitJake](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656224537/LogoVDoc_vchngz.png)
+![BitJake](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656224813/TlalocLogo_kvw9dg.png)
 
 ## Descripcion
 Tlaloc, nace de un grupo de estudiantes decididos a generar una página de impacto en importancia para el medio ambiente, pero no sólo una página destinada al medio ambiente , pues no es una simple página informativa. 

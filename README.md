@@ -3,7 +3,7 @@ Es un grupo de jóvenes innovadores, con ganas de generar, crecer y demostrar qu
 Ellos han decidido crear su primer página para apoyo al medio ambiente. Son creadores de todo el contenido, todo ha sido creado detalle a detalle y de forma minuciosa, pues es lo que los caracteriza como grupo, sus ganas de crear y generar cosas innovadoras y útiles.
 > "Help Tip" - Utilizar tema dark 
 
-![BitJake](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656276043/LogoBJDarkMode_z7f5fs.png)
+![BitJake](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656278263/logoMThem_b8lsk0.png)
 
 # Tlaloc-Cliente🌳​ 
 

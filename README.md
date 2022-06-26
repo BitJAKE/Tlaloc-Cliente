@@ -1,11 +1,29 @@
 # Tlaloc-Cliente🌳​ 
+
+Proyecto destinado para dar soporte al frontend del producto Tlaloc de BitJake.
+Se encontrarán los diferentes diseños que tiene la aplicacion, configuraciones y tipografias.
+
+![BitJake](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656224537/LogoVDoc_vchngz.png)
+
 ## Descripcion
-Tlaloc, nace de un grupo de estudiantes decididos a generar una página de impacto en importancia para el medio ambite, pero no sólo una página destinada al medio ambiente , pues no es una simple página informativa. 
+Tlaloc, nace de un grupo de estudiantes decididos a generar una página de impacto en importancia para el medio ambiente, pero no sólo una página destinada al medio ambiente , pues no es una simple página informativa. 
 Está es una creación destinada a mostrar, motivar y apoyar al desarrollo del medio ambiente.
 Tenemos 3 áreas importantes.
-- El primero es el área de " eventos " , este área es creado para que todos los visitantes vean información variada de actividades favorables a la naturaleza, en este área también tenemos la oportunidad de que los vendedores ambulantes puedan colocar su información, cómo punto de venta y diversos detalles. Todo referente a la naturaleza. 
-- También existe el área de blog, en esta va a encontrar diversa información de proceso para plantar
-- Y no menos importante el área que habla de nosotros. Pues tenemos una breve descripción de quienes somos y qué queremos lograr.
+- El primero es el área de `EVENTOS`, este área es creado para que todos los visitantes vean información variada de actividades favorables a la naturaleza, en este área también tenemos la oportunidad de que los vendedores ambulantes puedan colocar su información, cómo punto de venta y diversos detalles. Todo referente a la naturaleza. 
+- También existe el área de blog, en esta se encontrará diversa información de proceso para plantar, información importante sobre lugares ecologicos, paisajes de Guatemala y datos curiosos sobre animales. 
+- Y no menos importante el área que habla de nosotros. Pues tenemos una breve descripción de quienes somos y cuál es el objetivo del equipo bitJake.
+
+## ​🕷️​​ Descripción sobre Estructura de trabajo
+En bitJAKE se trabaja con una estructura en base a funciones, es decir que clasificamos los archivos en carpetas de acuerdo a la funcion que tienen. La estructura es la siguiente:
+
+```
+- fonts : destinada a las diferentes tipografias utilizadas en el proyecto
+- img : destinada a orgnizar las diferentes imágenes
+- js: se encarga de la funcionalidad
+- pages : se encuentran todas las paginas html
+- src: se encuentra el input.css y output.css, es la carpeta raiz
+
+```
 
 ## 🛠 Instalación
 
@@ -14,7 +32,7 @@ Tenemos 3 áreas importantes.
 3. Instala las dependencias
    `npm i`
 4. Levantar el proyecto
-   `npm run dev`
+   `Live Server`
 
 ## 💻​🔨​ Iniciar con Tareas
 - ⚡Si es para una caracteristica nueva crear una rama especifica desde develop, Con la siguiente estructura:
@@ -26,4 +44,12 @@ Tenemos 3 áreas importantes.
 3.  JS 🍀
 4.  Tailwindcss ​🏕️​
 
+## ​🦚​ Despliegue
+Para desplegar se utilizo `NETLIFY`, facilita que los sitios web esten para los usuarios sin demoras.
+También la plataforma permite lanzar proyectos web sin necesidad de preocuparnos por configuraciones y mantenimiento.
 
+## Autores ✒️
+* **Kelvin Cano** - *UI Developer* - [Kelvin-Cano](https://github.com/Allecan)
+* **Fernando Juarez** - *Front-end Developer* - [Fernando-Juarez](https://github.com/Rafterminador)
+* **Zoila  Sánchez** - *Desarrolladora Backend* - [Zoila-Sánchez](https://github.com/ZoilaSanchez)
+* **Andrea Morales** - *Desarrolladora Backend* - [Andrea-Morales](https://github.com/AGMH16)

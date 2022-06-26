@@ -1,18 +1,16 @@
 # BitJake
 Es un grupo de jóvenes innovadores, con ganas de generar, crecer y demostrar que con sus conocimientos  pueden no solo generar evoluciones en la tecnología, sino también en otros ambientes. 
 Ellos han decidido crear su primer página para apoyo al medio ambiente. Son creadores de todo el contenido, todo ha sido creado detalle a detalle y de forma minuciosa, pues es lo que los caracteriza como grupo, sus ganas de crear y generar cosas innovadoras y útiles.
-> "Help Tip" - Utilizar tema dark 
-![BitJake](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656268088/Logo1BitJake_twsjio.png)
+> "Info Tip" - Utilizar tema dark para apreciar de mejor forma la información.
+
+![BitJake](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656278263/logoMThem_b8lsk0.png)
 
 # Tlaloc-Cliente🌳​ 
 
-Proyecto destinado para dar soporte al frontend del producto Tlaloc de BitJake.
+Proyecto destinado para dar soporte al frontend del producto Tláloc de BitJake.
 Se encontrarán los diferentes diseños que tiene la aplicacion, configuraciones y tipografias.
 
-
-> "Help Tip" - Utilizar tema dark 
-
-![BitJake](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656224813/TlalocLogo_kvw9dg.png)
+![Tlaloc](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656278672/TlalocMThem_jrfeei.png)
 
 ## Descripcion
 Tlaloc, nace de un grupo de estudiantes decididos a generar una página de impacto en importancia para el medio ambiente, pero no sólo una página destinada al medio ambiente , pues no es una simple página informativa. 
@@ -54,8 +52,28 @@ En bitJAKE se trabaja con una estructura en base a funciones, es decir que clasi
 4.  Tailwindcss ​🏕️​
 
 ## ​🦚​ Despliegue
-Para desplegar se utilizo `NETLIFY`, facilita que los sitios web esten para los usuarios sin demoras.
+Para desplegar se utilizó `NETLIFY`, facilita que los sitios web esten para los usuarios sin demoras.
 También la plataforma permite lanzar proyectos web sin necesidad de preocuparnos por configuraciones y mantenimiento.
+
+
+## ​👀​​ Pages
+A continuación se visualizarán las diferentes pantallas 
+* **Página Principal**
+
+![home](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656274600/screencapture-tlaloc-netlify-app-2022-06-26-14_15_06_m1skrr.png)
+
+* **Área de Eventos**
+
+![eventos](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656277899/screencapture-tlaloc-netlify-app-pages-eventos-2022-06-26-15_11_19_qmcx9p.png)
+
+* **Área de Blogs**
+
+![blos](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656274604/screencapture-tlaloc-netlify-app-pages-blog-2022-06-26-14_15_28_fjkl34.png)
+
+* **¿Quiénes Somos?**
+
+![equipo](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656274600/screencapture-tlaloc-netlify-app-pages-aboutus-2022-06-26-14_15_56_p6obpx.png)
+
 
 ## Autores ✒️
 * [Kelvin-Cano](https://github.com/Allecan) - *UI Developer*

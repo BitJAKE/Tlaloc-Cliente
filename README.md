@@ -54,8 +54,28 @@ En bitJAKE se trabaja con una estructura en base a funciones, es decir que clasi
 4.  Tailwindcss ​🏕️​
 
 ## ​🦚​ Despliegue
-Para desplegar se utilizo `NETLIFY`, facilita que los sitios web esten para los usuarios sin demoras.
+Para desplegar se utilizó `NETLIFY`, facilita que los sitios web esten para los usuarios sin demoras.
 También la plataforma permite lanzar proyectos web sin necesidad de preocuparnos por configuraciones y mantenimiento.
+
+
+## ​👀​​ Pages
+A continuación se visualizarán las diferentes pantallas 
+* **Página Principal**
+
+![home](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656274600/screencapture-tlaloc-netlify-app-2022-06-26-14_15_06_m1skrr.png)
+
+* **Área de Eventos**
+
+![eventos](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656274602/screencapture-tlaloc-netlify-app-pages-eventos-2022-06-26-14_15_41_srvpeu.png)
+
+* **Área de Blogs**
+
+![blos](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656274604/screencapture-tlaloc-netlify-app-pages-blog-2022-06-26-14_15_28_fjkl34.png)
+
+* **¿Quiénes Somos?**
+
+![equipo](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656274600/screencapture-tlaloc-netlify-app-pages-aboutus-2022-06-26-14_15_56_p6obpx.png)
+
 
 ## Autores ✒️
 * [Kelvin-Cano](https://github.com/Allecan) - *UI Developer*

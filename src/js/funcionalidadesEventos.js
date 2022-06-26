@@ -28,7 +28,7 @@ const crearTemplate = async (eventos) => {
                     <div class="flex items-center">
                         <img src="../img/Rectangulo-degradado.png" class="h-16 mr-4">
                         <h1 class="text-2xl text-center md:text-left md:text-5xl">
-                            Productos Ecologicos
+                            Eventos ambientales
                         </h1>
                     </div>
                     <div class="flex flex-col-reverse md:grid md:grid-cols-2 xl:grid-cols-12 gap-8 xl:gap-12">

@@ -60,5 +60,5 @@ También la plataforma permite lanzar proyectos web sin necesidad de preocuparno
 ## Autores ✒️
 * [Kelvin-Cano](https://github.com/Allecan) - *UI Developer*
 * [Fernando-Juarez](https://github.com/Rafterminador) - *Front-end Developer* 
-* [Zoila-Sánchez](https://github.com/ZoilaSanchez) - *Desarrolladora Backend*
+* [Zoila-Sánchez](https://github.com/ZoilaSanchez) - *Back-end Backend*
 * [Andrea-Morales](https://github.com/AGMH16) - *Content and Back-end Developer*

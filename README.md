@@ -10,10 +10,7 @@ Ellos han decidido crear su primer página para apoyo al medio ambiente. Son cre
 Proyecto destinado para dar soporte al frontend del producto Tláloc de BitJake.
 Se encontrarán los diferentes diseños que tiene la aplicacion, configuraciones y tipografias.
 
-
-> "Help Tip" - Utilizar tema dark 
-
-![BitJake](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656278672/TlalocMThem_jrfeei.png)
+![Tlaloc](https://res.cloudinary.com/dzdoi1gfv/image/upload/v1656278672/TlalocMThem_jrfeei.png)
 
 ## Descripcion
 Tlaloc, nace de un grupo de estudiantes decididos a generar una página de impacto en importancia para el medio ambiente, pero no sólo una página destinada al medio ambiente , pues no es una simple página informativa. 

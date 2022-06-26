@@ -21,10 +21,19 @@ const cargareventos = async () => {
         </div>
         <div class="col-span-1"></div>`
     cabeceraevento.appendChild(contenidoCabecera)
+    let divFecha = document.getElementsByClassName("fecha")
+    let divHora = document.getElementsByClassName("hora")
+    let divUbicacion = document.getElementsByClassName("ubicacion")
+    for (let i = 0; i < divFecha.length; i++) {
+        divFecha[i].textContent = fecha
+    }
+    for (let i = 0; i < divHora.length; i++) {
+        divHora[i].textContent = hora
+    }
+    for (let i = 0; i < divUbicacion.length; i++) {
+        divUbicacion[i].textContent = evento.lugar
+    }
     document.getElementById("imagenPrincipal").src = imagenevento
-    document.getElementById("fecha").textContent = fecha
-    document.getElementById("hora").textContent = hora
-    document.getElementById("ubicacion").textContent = evento.lugar
     let eventoContenido = await obtenerContenido(evento.contenido)
     divContenido.appendChild(eventoContenido)
 }

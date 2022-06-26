@@ -15,7 +15,7 @@ const cargareventos = async () => {
     contenidoCabecera.innerHTML = `
         <div class="mx-6 md:mx-32 md:col-span-3">
             <p class="texto-verde-alterno mb-2 text-center md:text-left">${fecha}</p>
-            <h1 class="text-3xl text-center md:text-left md:text-5xl mb-6">
+            <h1 class="text-3xl text-center md:text-left md:text-4xl mb-6">
                 ${evento.nombre}
             </h1>
         </div>
@@ -71,7 +71,7 @@ const obtenerContenido = async (contenido) => {
         let contenidoAPI = await obtenerContenidoAPI(contenido[i])
         if (contenidoAPI.titulo != undefined) {
             let subtitulo = document.createElement("h2")
-            subtitulo.className = "text-xl text-center md:text-left md:text-3xl mt-8 mb-4"
+            subtitulo.className = "text-xl text-center md:text-left md:text-2xl mt-8 mb-4"
             subtitulo.textContent = contenidoAPI.titulo
             subtitulo.id = contenidoAPI.titulo
             divContenido.appendChild(subtitulo)
